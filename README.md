@@ -1,40 +1,39 @@
 # Election_Analysis
 Performing analysis on election results data.
 
-## Overview of ELection Audit
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+## Overview of Election Audit
+A Colorado Board of Elections employee will be assisted with the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
-3. Calculate the total numnber of votes each candidate received.
-Calculate the percentage of votes each candidate won.
+3. Calculate the total number of votes each candidate received.
+4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular votes
 
-The Colorado election commission has requested some additional data to complete the audit:
+Other additional tasks requested to complete the audit include:
 1. The voter turnout for each county.
 2. The percentage of votes from each county out of the total count.
 3. The county with the highest turnout
 
 ## Resources
-- Data Source: election_results.csv
+- Data Source: This analysis was performed using the [election_results.csv](https://github.com/aobasuyi/Election_Analysis/blob/main/Resources/election_results.csv) dataset.
 - Software: Python 3.7.6, Visual Studio Code, 1.56
 
 ## Election-Audit Results
 The analysis of the election shows that:
-- There were 369,711 votes cast in the election.
+- There were **369,711** votes cast in the election.
 
-**County Results**
-The analysis of the county results show that:
+**County Results**<br />
 - The counties were:
     - Jefferson
     - Denver
     - Arapahoe
 - The county results were:
-    - County Jefferson, received 10.5% of the vote and 38,855 number of votes.
-    - County Denver received 82.8% of the vote and 306,055 number of votes.
-    - County Arapahoe received 6.7% of the vote and 24,801 number of votes.
+    - Jefferson received **10.5%** of the vote and **38,855** number of votes.
+    - Denver received **82.8%** of the vote and **306,055** number of votes.
+    - Arapahoe received **6.7%** of the vote and **24,801** number of votes.
 - The county with the highest voter turnout was:
-    - Denver, which received 82.8% of the vote and 306,055 number of votes.
+    - **Denver** which received **82.8%** of the vote and **306,055** number of votes.
 
 **Candidate Results**
 - The candidates were:
