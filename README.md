@@ -34,7 +34,9 @@ The number of votes and the percentage of total votes for each county in the pre
     - Denver received **82.8%** of the vote and **306,055** number of votes.
     - Arapahoe received **6.7%** of the vote and **24,801** number of votes.
 - The county with the highest voter turnout was:
-    - **Denver** which received **82.8%** of the vote and **306,055** number of votes.
+    - **Denver** which received **82.8%** of the vote and **306,055** number of votes
+ 
+ <br /> *![Image](analysis/County_Votes_Results.png)
 
 **Candidate Results:**<br />
 The number of votes and the percentage of the total votes each candidate received:
@@ -48,6 +50,8 @@ The number of votes and the percentage of the total votes each candidate receive
     - Candidate Raymon Anthony Doane received **3.1%** of the vote and **11,606** number of votes.
 - The winner of the election was:
     - **Diana DeGette** who received **73.8%** of the vote and **272,892** number of votes.
+
+<br /> *![Image](analysis/Candidate_Votes_Results.png)
 
 ## Election-Audit Summary
 A proposal to the election commission on how this script can be used for any election include
