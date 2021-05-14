@@ -60,7 +60,7 @@ A proposal to the election commission on how this script can be used for any ele
 Some examples for modifying the script include
 
 ```
-# Change the name of the file to load a file from a path.
+# Change the name of the file to load from a path.
 file_to_load = os.path.join("Resources", "new_file.csv")
 
 # Change the name of election results text file
