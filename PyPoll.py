@@ -34,9 +34,9 @@ with open(file_to_load) as election_data:
     for row in file_reader:
         #Add to the total vote count
         total_votes += 1
-
         # Get the candidate name from each row.
         candidate_name = row[2]
+        
         #If the candidate does not match any existing candidate add it to the candidate list
         if candidate_name not in candidate_options:
             # Add the candidate name to list of candidates.
@@ -48,7 +48,7 @@ with open(file_to_load) as election_data:
 
 # Save the results to our text file.
 with open(file_to_save, "w") as txt_file:
-    #After opening teh file rpint the final vote count to the terminal
+    #After opening the file print the final vote count to the terminal
     election_results = (
         f"\nElection Results\n"
         f"-------------------------\n"
