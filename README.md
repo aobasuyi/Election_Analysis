@@ -1,7 +1,7 @@
 # Election_Analysis
 Performing analysis on election results data.
 
-## Overview of Project
+## Overview of ELection Audit
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
@@ -10,41 +10,53 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular votes
 
-## Resources
-- Data Source: election_results.csv
-- Software: Python 3.7.6, Visual Studio Code, 1.56
-
-## Summary
-The analysis of the election show that:
-- There were 369,711 votes cast in the election.
-- The candidates were:
-    - Candidate 1: Charles Casper Stockham
-    - Candidate 2: Diana DeGette
-    - Candidate 3: Raymon Anthony Doane
-- The candidate results were:
-    - Candidate Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
-    - Candidate Diana DeGette received 73.8% of the vote and 272,892 number of votes.
-    - Candidate Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
-- The winner of the election was:
-    - Candidate Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
-
-## Challenge Overview
 The Colorado election commission has requested some additional data to complete the audit:
 1. The voter turnout for each county.
 2. The percentage of votes from each county out of the total count.
 3. The county with the highest turnout
 
-## Challenge Summary
-The analysis of the county election results show that:
+## Resources
+- Data Source: election_results.csv
+- Software: Python 3.7.6, Visual Studio Code, 1.56
 
+## Election-Audit Results
+The analysis of the election shows that:
+- There were 369,711 votes cast in the election.
+
+**County Results**
+The analysis of the county results show that:
 - The counties were:
-    - county 1: Jefferson
-    - county 2: Denver
-    - county 3: Arapahoe
-
+    - Jefferson
+    - Denver
+    - Arapahoe
 - The county results were:
-    - county Jefferson, received 10.5% of the vote and 38,855 number of votes.
-    - county Denver received 82.8% of the vote and 306,055 number of votes.
-    - county Arapahoe received 6.7% of the vote and 24,801 number of votes.
-- The county with the largest voter turnout was:
-    - county Denver, which received 82.8% of the vote and 306,055 number of votes.
+    - County Jefferson, received 10.5% of the vote and 38,855 number of votes.
+    - County Denver received 82.8% of the vote and 306,055 number of votes.
+    - County Arapahoe received 6.7% of the vote and 24,801 number of votes.
+- The county with the highest voter turnout was:
+    - Denver, which received 82.8% of the vote and 306,055 number of votes.
+
+**Candidate Results**
+- The candidates were:
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
+- The candidate results were:
+    - Candidate Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+    - Candidate Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+    - Candidate Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
+- The winner of the election was:
+    - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
+
+## Election-Audit Summary
+A proposal to the election commission on how this script can be used for any election include
+1. Updating or changing the name of the election results CSV file to ensure the correct file is loaded each time.
+2. Updating the name of the election results text file to avoid overwriting previous election results 
+Some examples for modifying the script include
+
+```
+# Change the name of the file to load a file from a path.
+file_to_load = os.path.join("Resources", "new_election_file.csv")
+# Change the name of election results text file
+file_to_save = os.path.join("analysis", "new_results.txt")
+```
